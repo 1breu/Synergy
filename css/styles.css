@@ -1,0 +1,103 @@
+/* Tag Selectors */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: grey;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  margin: 0;
+  background-color: #343140;
+  color: white;
+}
+
+h1, h3 {
+  font-family: "Arial Black"
+}
+
+h2, h4 {
+  font-family: "Gill Sans";
+}
+
+p {
+  font-family: "Gill Sans";
+  font-size: 1.10rem;
+}
+
+hr {
+  border-style: solid;
+  border-width: 2px;
+  color: white;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Boostrap Classes */
+.img-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-toggler-icon{
+  width: 30px;
+  height: 30px;
+}
+
+.nav-item {
+  font-family: "Gill Sans";
+}
+
+/* Custom-Class Selectors */
+.brandLogo {
+  width: 30px;
+  height: 30px;
+}
+
+.customBoxes{
+  margin: 10px;
+  border-style: solid;
+  border-color: lightgreen;
+  border-width: 5px;
+}
+
+.customNav {
+  background-color: darkblue;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.siteName {
+  color: lightgreen;
+  font-family: "Futura";
+  font-size: 3.5rem;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+  padding-right: 20px;
+}
+
+.bannerImg {
+  background-image: url("images/hd1.jpg");
+  background-repeat: no-repeat;
+}
+
+.tempImg {
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  border-radius: 300px;
+  border-color: gainsboro;
+  border-style: double;
+}

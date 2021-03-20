@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Based in Las Vegas, Nevada providing
+    residential windows and patio doors, installation, retrofits, and repair" />
+  <title>Services | Synergy Windows</title>
+  <link rel="icon" href="images/icon.png">
+  <!-- Bootstrap 4 -->
+  <link rel="stylesheet" href="packages/bootstrap/css/bootstrap.css">
+  <script src="packages/jquery-3.2.1.slim.min.js"></script>
+  <script src="packages/popper.1.12.9.min.js"></script>
+  <script src="packages/bootstrap/js/bootstrap.bundle.js"></script>
+  <!-- CSS Styles Sheet -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <div class="container-fluid px-0 text-center bg-light">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark customNav">
+      <div class="container-fluid px-5">
+        <div class="mr-auto">
+          <h1 class="mr-auto siteName">Synergy</h1>
+          <h6 class="text-white mx-auto">Windows & Doors</h6>
+        </div>
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navCollapse" aria-controls="navCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          <p class="text-white d-inline pl-3">Menu</p>
+        </button>
+        <div class="collapse navbar-collapse" id="navCollapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link px-3" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3" href="products.html">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active px-3" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <img src="images/banner3.jpg" alt="" class="img-fluid">
+    <div class="container">
+      <h1 class="pt-5 px-5 pb-0">Services</h1>
+      <h4 class="px-3">We provide a variety of services to meet your needs:</h4>
+      <div class="row py-4">
+        <div class="col text-left">
+          <h3 class="p-3">Windows & Doors</h3>
+          <h4>
+            <ul>
+              <li>Sales</li>
+              <li>Installations</li>
+              <li>Repairs</li>
+              <li>Replacements</li>
+            </ul>
+          </h4>
+        </div>
+        <div class="col text-left">
+          <h3 class="p-3">General Contract</h3>
+          <h4>
+            <ul>
+              <li>Production new construction</li>
+              <li>Custom homes</li>
+              <li>Multi family/Mixed use</li>
+            </ul>
+          </h4>
+        </div>
+      </div>
+    </div>
+    <!-- Page Content -->
+    <div class="container-fluid p-5">
+      <h1>Pictures From Our Previous Jobs</h1>
+      <h4>Here you can browse our image gallery to see the kind
+        of quality we deliver.</h4>
+    </div>
+    <div class="container-fluid d-flex" id="imgGallery" data-toggle="modal" data-target="#imgModal">
+      <div class="row flex-wrap justify-content-center align-items-stretch">
+        <div class="col-12 col-sm-6 col-lg-3 my-auto">
+          <img src="images/pics/001.jpg" alt="" class="img-fluid" data-target="#modCar" data-slide-to="0">
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 my-auto">
+          <img src="images/pics/002.jpg" alt="" class="img-fluid" data-target="#modCar" data-slide-to="1">
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 my-auto">
+          <img src="images/pics/003.jpg" alt="" class="img-fluid" data-target="#modCar" data-slide-to="2">
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 my-auto">
+          <img src="images/pics/004.jpg" alt="" class="img-fluid" data-target="#modCar" data-slide-to="3">
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 my-auto">
+          <img src="images/pics/005.jpg" alt="" class="img-fluid" data-target="#modCar" data-slide-to="4">
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 my-auto">
+          <img src="images/pics/009.jpg" alt="" class="img-fluid" data-target="#modCar" data-slide-to="5">
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 my-auto">
+          <img src="images/pics/010.jpg" alt="" class="img-fluid" data-target="#modCar" data-slide-to="6">
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 my-auto">
+          <img src="images/pics/011.jpg" alt="" class="img-fluid" data-target="#modCar" data-slide-to="7">
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 my-auto">
+          <img src="images/pics/012.jpg" alt="" class="img-fluid" data-target="#modCar" data-slide-to="8">
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 my-auto">
+          <img src="images/pics/013.jpg" alt="" class="img-fluid" data-target="#modCar" data-slide-to="9">
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="imgModal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4>Image Gallery</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div id="modCar" class="carousel slide" data-ride="false">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="images/pics/001.jpg">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Caption</h5>
+                    <p>Caption summary</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="images/pics/002.jpg">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="images/pics/003.jpg">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="images/pics/004.jpg">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="images/pics/005.jpg">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="images/pics/009.jpg">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="images/pics/010.jpg">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="images/pics/011.jpg">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="images/pics/012.jpg">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="images/pics/013.jpg">
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#modCar" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#modCar" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container p-5">
+      <h3>Further information</h3>
+      <a href="contact.html">
+        <h4>If you feel ready to contact us, you can reach out here.</h4>
+      </a>
+    </div>
+    <!-- Footer Row -->
+    <footer class="container-fluid">
+      <h3 class="p-2">Contact Us</h3>
+      <div class="row">
+        <div class="col p-3">
+          <h5>Site Navigation</h5>
+          <ul class="px-0 flex-column">
+            <li>
+              <a href="index.html" class="py-1">
+                <h6>Home</h6>
+              </a>
+            </li>
+            <li>
+              <a href="products.html" class="py-1">
+                <h6>Products</h6>
+              </a>
+            </li>
+            <li>
+              <a href="services.html" class="py-1">
+                <h6>Services</h6>
+              </a>
+            </li>
+            <li>
+              <a href="contact.html" class="py-1">
+                <h6>Contact</h6>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col p-3">
+          <h6>Synergy Windows & Doors LLC</h6>
+          <h6>6317 Dean Martin Drive</h6>
+          <h6>Las Vegas, Nevada 89118</h6>
+        </div>
+        <div class="col p-3 mr-0">
+          <h6>Phone: +(123) 456-7890</h6>
+          <h6>Email: sales@synergywindows.com</h6>
+          <h6>Hours: 8:00 AM - 4:00 PM</h6>
+          <h6>Monday - Friday</h6>
+          <h4><em><strong>Hablamos Español</strong></em></h4>
+        </div>
+      </div><br>
+      <a href="#top" class="btn btn-outline-success">Back To Top</a>
+      <p class="p-0 pt-2 my-0 text-secondary">Copyright 2021 Synergy Windows </p>
+    </footer>
+  </div>
+</body>
+
+</html>
